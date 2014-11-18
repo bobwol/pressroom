@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="PressRoom turns Wordpress into a multi channel publishing environment. It consists of a WordPress plugin, a set of themes and an hybrid iOS and Android (coming soon) client built with the Baker Framework.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon-180x180.png">
+        <meta name="apple-mobile-web-app-title" content="pressroom">
+        <link rel="icon" type="image/png" href="../favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="msapplication-TileImage" content="../mstile-144x144.png">
+        <meta name="application-name" content="pressroom">
+        <!-- Title block allowing child pages to override -->
+        <title>PressRoom</title>
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+        <!-- Styles -->
+        <link href="../assets/stylesheets/css/master.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <!-- Style block allowing child pages to inject their own styles -->
+        <!-- include JS libs -->
+        <script src="../assets/js/sources/modernizr.min.js"></script>
+        
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+        <![endif]-->
+        <script src="//use.typekit.net/knn2yap.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body class="docs-page single-doc">
+      <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- <a href="https://github.com/thePrintLabs/pressroom"><img style="position: absolute; top: 0; left: 0; border: 0; z-index: 1000;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a> -->
+        <div class="main">
+            <aside class="docs">
+	<nav class="docs__nav">
+	
+	 	<ul class="menu">
+	    
+	    	<li class="docs__nav__item"><a href="/documents/get-started" title="Documentation: Get Started">Get Started</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/features" title="Documentation: Features">Features</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/settings" title="Documentation: Settings">Settings</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/usage" title="Documentation: Usage">Usage</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/theming" title="Documentation: Theming">Theming</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/gotchas" title="Documentation: Gotchas">Gotchas</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/faqs" title="Documentation: Faq's">Faq's</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/how-to-contribute" title="Documentation: How to contribute">How to contribute</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/version-conparison" title="Documentation: Version Comparison">Version Comparison</a></li>
+	  	
+	    	<li class="docs__nav__item"><a href="/documents/licensing" title="Documentation: Licensing">Licensing</a></li>
+	  	
+	  	</ul>
+	
+	</nav> 
+	<a href="/" class="logo docs mobile-visible"></a>
+</aside>
+<header class="">
+	<a id="docnav-control" href="#" class="icon-m-menu"></a>
+</header>
+
+            <div class="content">
+                <div class="wrapper">
+                    <a href="/" class="logo mobile-invisible"></a>
+                    
+                    <article>
+                        <h1 class="alt">Usage</h1>
+                        
+<pre><code class="language-javascript">settings = {
+    element: null,
+    dragger: null,
+    disable: 'none',
+    addBodyClasses: true,
+    hyperextensible: true,
+    resistance: 0.5,
+    flickThreshold: 50,
+    transitionSpeed: 0.3,
+    easing: 'ease',
+    maxPosition: 266,
+    minPosition: -266,
+    tapToClose: true,
+    touchToDrag: true,
+    slideIntent: 40,
+    minDragDistance: 5
+}
+</code></pre>
+
+<ul>
+  <li><code>element</code>: The element which the user will be sliding side to side</li>
+  <li><code>dragger</code>: The element which the user will be using to slide the target element side to side</li>
+  <li><code>disable</code>: String, set to ‘left’ or ‘right’ to disable the respective side</li>
+  <li><code>addBodyClasses</code>: Add classes to the body to signify which side is being opened</li>
+  <li><code>hyperextensible</code>: If false, pane may not be slide past the minPosition and maxPosition</li>
+  <li><code>resistance</code>: The cooeficcient used to slow sliding when user has passed max or min threshold</li>
+  <li><code>flickThreshold</code>: Number of pixels the user needs to swiftly travel to activate a “flick” open</li>
+  <li><code>transitionSpeed</code>: The speed at which the pane slides open or closed</li>
+  <li><code>easing</code>: The CSS3 Easing method you want to use for transitions</li>
+  <li><code>maxPosition</code>: Maximum number of pixels the pane may be slid to the right</li>
+  <li><code>minPosition</code>: Maximum number of pixels the pane may be slid to the left</li>
+  <li><code>tapToClose</code>: If true, tapping an open pane will close it</li>
+  <li><code>touchToDrag</code>: If true, dragging the target <code>settings.element</code> will open/close the pane</li>
+  <li><code>minDragDistance</code>: The minimum amount of pixels the user needs to drag within the <code>slideIntent</code> degrees to move the pane </li>
+  <li><code>slideIntent</code>: The number of degrees the user must initiate sliding in towards the left or right (see diagram below)</li>
+</ul>
+
+<p>Notes on Slide Intent: The slide intent is an int between 0 and 90, and represents the degrees in the first quadrant of a circle that you would like to have mirrored on the X <em>and</em> Y axis. For example, if you have 40 set as your <code>slideIntent</code> value, the user would only be able to slide the pane by dragging in the blue area in the diagram below. Once intent has been defined, it will not change until the user releases.</p>
+
+<p><img src="http://i.imgur.com/uG2CNR8.png" /></p>
+
+<h2>Public Methods</h2>
+
+<h3><code>open</code>: Opens the pane to the specified side</h3>
+
+<pre><code class="language-javascript">snapper.open('left');
+// OR
+snapper.open('right');
+</code></pre>
+
+<h3><code>close</code>: Closes the pane</h3>
+
+<pre><code class="language-javascript">snapper.close();
+</code></pre>
+
+<h3><code>expand</code>: Opens the pane entirely</h3>
+
+<pre><code class="language-javascript">snapper.expand('left');
+// OR
+snapper.expand('right');
+</code></pre>
+
+<h3><code>disable</code>: Disables sliding events</h3>
+
+<pre><code class="language-javascript">snapper.disable();
+</code></pre>
+
+<h3><code>enable</code>: Enables sliding events after disabling</h3>
+
+<pre><code class="language-javascript">snapper.enable();
+</code></pre>
+
+<h3><code>on</code>: Adds an event hook</h3>
+
+<pre><code class="language-javascript">snapper.on('start', function(){
+  // Do Something
+});
+</code></pre>
+<p>The available methods to hook into are as follows:</p>
+
+<ul>
+  <li><code>start</code>: Fired when touching down on the draggable pane and it begins to move</li>
+  <li><code>drag</code>: Fired when the pane has been moved or slid</li>
+  <li><code>end</code>: Fired when the pane has been let go of</li>
+  <li><code>animating</code>: Fired when the pane is animating</li>
+  <li><code>animated</code>: Fired when the pane is finished it’s animations</li>
+  <li><code>ignore</code>: Fired when trying to drag the pane but ended up dragging on an ignored element</li>
+  <li><code>close</code>: Fired when close is called directly or if tapToClose is set to true</li>
+  <li><code>open</code>: Fired when the menu is opened</li>
+  <li><code>expandLeft</code>: Fired on expand(‘left’)</li>
+  <li><code>expandRight</code>: Fired on expand(‘right’)</li>
+  <li><code>enable</code>: Fired on enable</li>
+  <li><code>disable</code>: Fired on disable</li>
+</ul>
+
+<h3><code>off</code>: Removes an event hook</h3>
+
+<pre><code class="language-javascript">snapper.off('drag');
+</code></pre>
+<p>The event names listed above apply for the <code>off</code> method.</p>
+
+<h3><code>settings</code>: Updates the settings for an already instantiated object</h3>
+<pre><code class="language-javascript">snapper.settings({yourSettings});
+</code></pre>
+<p>Currently, <code>settings.element</code>, <code>settings.touchToDrag</code> cannot be updated. To update the element, instantiate a new object. To allow listening to a drag, use <code>snapper.enable()</code></p>
+
+<h3><code>state</code>: Returns detailed information about the state of the pane</h3>
+
+<pre><code class="language-javascript">var data = snapper.state();
+</code></pre>
+<p>The data returned from the <code>state</code> method will look like the following:</p>
+
+<pre><code class="language-javascript">{
+    state: "closed", // State of the Pane
+    info:{
+        opening: "left", // Side which user intends to open
+        towards: "right", // Direction user is dragging towards
+        hyperExtending: false, // True if user is pulling past predefined bounds
+        halfway: false, // True if pane is at least halfway open
+        flick: false, // True if user has moved pane X amount of pixels in the open/close direction without changing directions
+        translation:{
+            absolute: 20, // Pixels pane has translated
+            relative: 21, // Pixels pane has translated relative to starting translation
+            sinceDirectionChange: 10, // Pixels pane has translated since the direction of the pane has changed
+            percentage: 40.571649 // The percentage that the Pane is open. Good or animating other things
+        }
+    }
+} 
+</code></pre>
+
+                        <small>
+                        PressRoom ©2014 theP­rint­Labs Ltd 200 Aldersgate EC1A 4HD Lon­don, UK
+                        </small>
+                    </article>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="../assets/js/app.min.js"></script>
+        <script>
+            var nav = responsiveNav(".docs__nav", { 
+                animate: true, // Boolean: Use CSS3 transitions, true or false
+                transition: 284, // Integer: Speed of the transition, in milliseconds
+                label: "", // String: Label for the navigation toggle
+                insert: "before", // String: Insert the toggle before or after the navigation
+                customToggle: "docnav-control", // Selector: Specify the ID of a custom toggle
+                closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+                openPos: "relative", // String: Position of the opened nav, relative or static
+                navClass: "docs__nav", // String: Default CSS class. If changed, you need to edit the CSS too!
+                navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+                jsClass: "js", // String: 'JS enabled' class which is added to  element
+                init: function(){}, // Function: Init callback
+                open: function(){}, // Function: Open callback
+                close: function(){} // Function: Close callback
+            });
+        </script>
+    </body>
+</html>

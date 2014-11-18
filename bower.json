@@ -1,0 +1,23 @@
+{
+  "name": "pressroom",
+  "version": "0.0.0",
+  "authors": [
+    "yumyo <n.pernice@w2b.it>"
+  ],
+  "description": "bower managed packages",
+  "homepage": "http://press-room.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jeet": "~6.1.1",
+    "modularized-normalize-scss": "~3.0.1",
+    "bourbon": "~4.0.2",
+    "breakpoint-sass": "~2.5.0",
+    "responsive-nav": "~1.0.32"
+  }
+}
