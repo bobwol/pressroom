@@ -1242,8 +1242,16 @@ pre code, pre tt {
     border-bottom: 6px solid rgba(255, 255, 255, 0.7);
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\0000385}}
+.nav-collapse li a.disabled {
+  color: grey;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\0000388}}
+.nav-collapse li a.disabled:hover, .nav-collapse li a.disabled:focus {
+  border-bottom: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\0000393}}
 .js .nav-collapse, .js .docs__nav {
   clip: rect(0 0 0 0);
   max-height: 0;
@@ -1253,17 +1261,17 @@ pre code, pre tt {
   zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003102}}
 .nav-collapse.opened, .docs__nav.opened {
   max-height: 9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003106}}
 .disable-pointer-events {
   pointer-events: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003110}}
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -1275,19 +1283,19 @@ pre code, pre tt {
 }
 
 @media screen and (min-width: 730px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003121}}
   .js .nav-collapse,
   .js .docs__nav {
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003125}}
   .js .nav-collapse.closed,
   .js .docs__nav.closed {
     max-height: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nico\/Siti\/mixtures\/pressroom\/assets\/stylesheets\/sass\/partials\/_navigation\.scss}line{font-family:\00003129}}
   .nav-toggle {
     display: none;
   }
